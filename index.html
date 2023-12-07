@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Ariel Cachi | DDC </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.bbavt.org/wp-content/uploads/avatars/55/manual-bpfull.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://www.bbavt.org/wp-content/uploads/avatars/55/manual-bpfull.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-DDC">Sobre DDC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://www.bbavt.org/wp-content/uploads/avatars/55/manual-bpfull.jpg" alt="Foto de DDC">
+        <h1>This is the DDC Team!</h1>
+        <h2>Managed Services and Implementation team</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://www.dealer.com/wp-content/uploads/sites/18/Headquarters-Exterior-1.jpg?h=365&w=1024" alt="DDC Offices">
+      </div>
+    </section>
+
+    <!-- Sobre DDC -->
+    <section id="sobre-DDC" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">What is DDC</h2>
+        <p class="seccion-texto">The automotive world is constantly changing. Shifting. Growing. Innovating. And you need a nimble, powerful partner who is here to create long-term value for your business, our industry and society.</p>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Dealer Websites</p>
+            <p>Your leads are only as good as the website that produces them. Create the personalized experience your customers crave and drive more conversions.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Migrations</span>
+              <span class="badge text-bg-primary">Pre-Builds</span>
+              <span class="badge text-bg-primary">Spanish Sites</span>
+              <span class="badge text-bg-primary">Terminations</span>
+            </div>
+          </div>
+          <!-- Managed Services -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Managed Services</p>
+            <p>Master your digital marketing for maximum results when you partner with us. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Landing Pages</span>
+              <span class="badge text-bg-primary">SEO</span>
+              <span class="badge text-bg-primary">Posting Blogs</span>
+            </div>
+          </div>
+          <!-- Automovive Advertising -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Automovive Advertising</p>
+            <p>Find more buyers everywhere and own every critical moment with first-party consumer intelligence from the largest automotive ecosystem. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Video Advertising</span>
+              <span class="badge text-bg-primary">Social Media Advertising</span>
+              <span class="badge text-bg-primary">Paid Search</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Información que pueda interesarte sobre DDC</h2>
+      <h3 class="seccion-descripcion">Estas son algunas de las áreas de DDC.</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Articulos</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/insights/resource/articles/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Posts</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/insights/resource/videos/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Partnership</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/support/?_gl=1%2A1uhex75%2A_gcl_au%2AMzg4MDY3NzY4LjE2OTgxODUzMTk." target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>The Team</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/our-team/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Corporate Responsibility</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/company/corporate-responsibility/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Careers</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.dealer.com/company/careers/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          See more areas
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          DDC
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              La empresa
+            </li>
+          </a>
+          <a href="https://www.dealer.com/company/careers/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Careers
+            </li>
+          </a>
+          <a href="https://www.dealer.com/our-team/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Nuestro Equipazo
+            </li>
+          </a>
+          <a href="https://www.dealer.com/company/corporate-responsibility/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Responsabilidad Social
+            </li>
+          </a>
+          <a href="https://www.dealer.com/insights/resource/videos/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Videos
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.dealer.com/insights/resource/articles/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de los clientes de DDC</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://www.dealer.com/wp-content/uploads/sites/18/Kerbeck-Subaru.png?h=535&w=800" alt="Foto de Subaru">
+              <p class="testimonio-texto">Kerbeck Subaru recognized the need to strategically enhance their social media marketing strategy. Learn how a partnership with Dealer.com‘s Managed Social team helped them take their social media presence to the next level.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Kerbek Subaru</p>
+                <p class="cargo">Kerbek Subaru</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://www.dealer.com/wp-content/uploads/sites/18/Bergeys-Buick-GMC-1.png?h=535&w=800" alt="Foto de Bergey">
+              <p class="testimonio-texto">Bergey’s Buick GMC was seeking a stronger relationship with an advertising vendor to elevate their digital advertising performance and provide transparency and strategic collaboration. The following case study details the success they experienced partnering with Dealer.com for their digital advertising needs.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Bergey’s Buick GMC</p>
+                <p class="cargo">Bergey’s Buick GMC</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://www.dealer.com/wp-content/uploads/sites/18/Ramey-Auto-Group.png?h=535&w=800" alt="Foto de Ramey ">
+              <p class="testimonio-texto">Ramey Auto Group believed the right digital marketing partner could help them do more than just increase lead flow. Learn how partering with Dealer.com helped provide combination of high-performing technology, data-driven insight, and strategic guidance to both fuel their lead pipeline and position them for long term success.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ramey Auto Group</p>
+                <p class="cargo">Ramey Auto Group</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              DDC esta esperando por ti
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:ariel.cachi@mojix.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Cox Automotive<br>DDC</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.dealer.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:ariel.cachi@mojix.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Mojix - DDC - 2023 &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
